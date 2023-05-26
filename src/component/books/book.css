@@ -1,0 +1,62 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.book-main-heading{
+    text-align: center;
+    margin: 30px 0px;
+}
+.contanier{
+    padding: 64px 0px;
+}
+.qur-img{
+    width: 200px;
+    margin:  auto;
+    display: flex;
+}
+.contanier{
+    background-color: rgb(78, 214, 78);
+    color: white;
+    
+}
+.book-contanier{
+    display: flex;
+    justify-content: space-around;
+    margin:59x 0px;
+    align-items: center;
+    padding: 40px;
+
+}
+.qur-contanier{
+
+    background-color: white;
+    padding: 50px ;
+    color: black;
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+p{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 750px){
+    .book-contanier{
+        display: block;
+    }
+    .qur-contanier{
+        width: 100%;
+        margin: 40px 0px;
+        padding: 25px;
+        
+    }
+    p{
+        font-size: 15px;
+    }
+    .book-main-heading{
+        padding: 0px 10px;
+    }
+}

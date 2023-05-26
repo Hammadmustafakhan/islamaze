@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contact-contanier{
+    background-color: rgb(78, 214, 78);
+    padding: 64px 0px;
+}
+form{
+    background-color: white;
+    width: 50%;
+    padding:80px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.contact-main{
+    display: flex;
+    justify-content:center;
+}
+input{
+    margin: 10px 0px;
+    border-bottom: 1px solid gray;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+width:100%;
+margin-left: 10px;
+padding: 10px;
+font-size: 15px;
+
+}
+
+button{
+    padding:    13px 20px;
+    background-color: rgb(78, 214, 78);     
+    border: none;
+    border-radius: 20px;
+    color: white;
+    
+}
+.btncontanier{
+    display: flex;
+    justify-content:center ;
+    margin-top: 30px;
+}
+textarea{
+    resize: none;    
+    margin:20px ;   
+}
+
+
+@media only screen and (max-width: 750px){
+    form{
+        width: 100%;
+        padding: 25px;
+        margin: 0px 20px;
+    }
+}

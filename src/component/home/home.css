@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Ubuntu:wght@300&display=swap');
+.muslimm-img{
+    width: 400px;
+
+    
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 64px 0px;
+}
+.main-contanier{
+    display: flex;
+    align-items: center ;
+    height: 75vh;
+}
+.text-contanier{
+    display: flex;
+align-items: center;
+    margin: 0px 25px;    
+}
+.home-text{
+    font-size: 25px;
+    background-color: rgb(78, 214, 78);
+    padding: 28px;
+    height: 50vh;
+    color: white;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.image-container{
+    margin: 0px 25px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .muslimm-img{
+         width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .muslimm-img{
+         width: 250px;
+    }
+    .home-text{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .main-contanier{
+        display: block;
+        height: 100vh;
+    }
+    .muslimm-img{
+        width: 300px;
+   }
+   .image-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+   }
+}
