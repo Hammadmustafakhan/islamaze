@@ -39,3 +39,8 @@ font-size: 36px;
 margin-left: 20px;
 }
 
+@media only screen and (max-width: 750px){
+    .right-side-nav{
+        display: none;
+    }
+}
