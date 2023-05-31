@@ -1,10 +1,10 @@
 import React from 'react'
 import "./contact.css";
-import Nav from '../nav/nav'
+
 const Contact = () => {
   return (
     <>
-    {/* <Nav/> */}
+
     <div className="contact-contanier">
         <div className="contact-main">
           
@@ -26,7 +26,7 @@ const Contact = () => {
 
 
 
-<p>Note : you can gmail about what do you want to ask.</p>
+<p>Note : you can Email about what do you want to ask.</p>
           </form>
 
         </div>

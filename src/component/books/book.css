@@ -40,8 +40,21 @@ p{
     margin: 20px 0px;
     font-size: 20px;
 }
+.book-btn{
+    margin-top: 20px;
 
+}
+.book-btn:hover{
+ font-size: 17px;
+        transition :all 100ms ;
 
+   
+}
+@media only screen and (max-width: 850px){
+    .qur-contanier{
+        padding: 20px;
+    }
+}
 
 @media only screen and (max-width: 750px){
     .book-contanier{
@@ -59,4 +72,10 @@ p{
     .book-main-heading{
         padding: 0px 10px;
     }
+
+}
+@media only screen and (max-width: 350px){
+.qur-img{
+    width: 150px;
+}
 }

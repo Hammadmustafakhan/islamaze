@@ -1,11 +1,12 @@
 import React from 'react'
 import Nav from '../nav/nav'
 import About from '../about/about';
-
+import Book from '../books/book';
 import Contact from '../contact/contact';
+import { Outlet } from 'react-router-dom';
 import "./home.css";
 
-import Book from '../books/book';
+
 
 const Home = () => {
   return (
@@ -20,14 +21,14 @@ const Home = () => {
             <div className="image-container">
                 <img className='muslimm-img' src="/img/muslim.jpeg" alt="" />
             </div>
-        </div>
+        </div>  
       </div>
     </div>
   
       <Book/>
   <About/>
   <Contact/>
-
+<Outlet/>
     </>
     
   )

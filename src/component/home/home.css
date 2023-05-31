@@ -10,6 +10,7 @@
 }
 .container{
     padding: 64px 0px;
+    height: 100vh;
 }
 .main-contanier{
     display: flex;
@@ -25,7 +26,7 @@ align-items: center;
     font-size: 25px;
     background-color: rgb(78, 214, 78);
     padding: 28px;
-    height: 50vh;
+    /* height: 50vh; */
     color: white;
     display: flex;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -64,11 +65,22 @@ align-items: center;
         height: 100vh;
     }
     .muslimm-img{
-        width: 300px;
+        width: 250px;
    }
    .image-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
    }
+   .container{
+    height: 100vh;
+   }
+   .home-text{
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 750px){
+    .muslimm-img{
+        width: 200px;
+    }
 }

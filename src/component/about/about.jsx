@@ -1,10 +1,10 @@
 import React from 'react'
 import "./about.css";
-import Nav from '../nav/nav'
+
 const About = () => {
   return (
 <>
-{/* <Nav/> */}
+
 <div className="aboutsection">
     <h1>ABOUT US </h1>
     <div className="main-contanier2">
